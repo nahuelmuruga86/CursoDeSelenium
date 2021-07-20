@@ -42,7 +42,7 @@ public class Ejercicio14 {
 
 
         //Refrescar la página
-        //driver.navigate().refresh();
+        driver.navigate().refresh();
 
         //Mostrar el texto de los botones que se encuentran en la página. Nota: el boton de inicio de sesion es rojo pero no esta como un boton en el DOM
         System.out.println("elemento botones Rojos: " + botonIniciarSesion.getText());
